@@ -19,6 +19,7 @@ public class PasswordValidatorTest{
         } else {
             System.out.println("Test Case 1 FAILED: Expected INVALID but got " + result1);
         }
+         // --- เขียน Test Case อื่นๆ ต่อ ---
         if (result2 == PasswordStrength.WEAK) {
             System.out.println("Test Case 2 Passed: sunnyday is Weak.");
         } else {
@@ -36,7 +37,7 @@ public class PasswordValidatorTest{
         }
         
 
-        // --- เขียน Test Case อื่นๆ ต่อ ---
+       
 
         System.out.println("--------------------------------");
     }
